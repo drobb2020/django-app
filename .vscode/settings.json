@@ -1,0 +1,30 @@
+{
+  "cSpell.words": [
+    "allauth",
+    "Andreas",
+    "cleancss",
+    "Cloudinary",
+    "collectstatic",
+    "createsuperuser",
+    "errorlist",
+    "focusable",
+    "gunicorn",
+    "helptext",
+    "hoverlist",
+    "Htmx",
+    "navitems",
+    "noinput",
+    "Procfile",
+    "psycopg",
+    "pycache",
+    "signup",
+    "socialapp",
+    "staticfiles",
+    "staticflickr",
+    "Tailwindcss",
+    "textareas",
+    "Webservice",
+    "whitenoise",
+    "wsgi"
+  ]
+}

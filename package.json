@@ -1,0 +1,29 @@
+{
+  "name": "django-app",
+  "version": "1.0.0",
+  "description": "A basic Django app for deployment testing",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwind build -i ./static/css/tailwind.css -o ./static/css/style.css --watch",
+    "build": "cleancss ./static/css/style.css -o ./static/css/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drobb2020/django-app.git"
+  },
+  "keywords": [
+    "Django",
+    "Tailwindcss",
+    "minify"
+  ],
+  "author": "David Robb <drobb2011@gmail.com> (https://davidrobb2021.tech/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drobb2020/django-app/issues"
+  },
+  "homepage": "https://github.com/drobb2020/django-app#readme",
+  "dependencies": {
+    "clean-css-cli": "^5.6.3",
+    "tailwindcss": "^3.4.3"
+  }
+}
