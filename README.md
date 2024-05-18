@@ -25,23 +25,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/drobb2020/django-ecommerce">
-    <img src="./ecom/static/assets/logo.png" alt="Logo" height="100">
+  <a href="https://github.com/drobb2020/django-app">
+    <img src="./static/images/logo.png" alt="Logo" height="100">
   </a>
 
-<h3 align="center">Django Ecommerce Project</h3>
+<h3 align="center">Django App Project</h3>
 
   <p align="center">
-    A Django project from Codemy.com on Django Wednesdays. This is still a work in progress as the series is not finished. So far it is fully functional.
+    This is a simple django project to test deployment to Render.
     <br />
-    <a href="https://github.com/drobb2020/django-ecommerce"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/drobb2020/django-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/drobb2020/django-ecommerce">View Demo</a>
+    <a href="https://github.com/drobb2020/django-app">View Demo</a>
     ·
-    <a href="https://github.com/drobb2020/django-ecommerce/issues">Report Bug</a>
+    <a href="https://github.com/drobb2020/django-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/drobb2020/django-ecommerce/issues">Request Feature</a>
+    <a href="https://github.com/drobb2020/django-app/issues">Request Feature</a>
   </p>
 </div>
 
@@ -81,9 +81,9 @@
 ### Built With
 
 * [Django](https://www.djangoproject.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Font Awesome](https://fontawesome.com/)
-* [JQuery](https://jquery.com/)
+* [Tailwindcss](https://tailwindcss.com/)
+* [Node](https://nodejs.org/en)
+* [HTMX](https://htmx.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -99,6 +99,8 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
+Please see the [django deployment file](./django_deployment.md)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
@@ -111,7 +113,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/drobb2020/django-ecommerce/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/drobb2020/django-app/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -143,29 +145,29 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - drobb2011@gmail.com
 
-Project Link: [https://github.com/drobb2020/django-ecommerce](https://github.com/drobb2020/django-ecommerce)
+Project Link: [https://github.com/drobb2020/django-app](https://github.com/drobb2020/django-app)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [John Elder from Codemy.com](https://codemy.com/)
+* [Andreas Jud](https://www.youtube.com/@ajudmeister)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/drobb2020/django-ecommerce.svg?style=for-the-badge
-[contributors-url]: https://github.com/drobb2020/django-ecommerce/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/drobb2020/django-ecommerce.svg?style=for-the-badge
-[forks-url]: https://github.com/drobb2020/django-ecommerce/network/members
-[stars-shield]: https://img.shields.io/github/stars/drobb2020/django-ecommerce.svg?style=for-the-badge
-[stars-url]: https://github.com/drobb2020/django-ecommerce/stargazers
-[issues-shield]: https://img.shields.io/github/issues/drobb2020/django-ecommerce.svg?style=for-the-badge
-[issues-url]: https://github.com/drobb2020/django-ecommerce/issues
-[license-shield]: https://img.shields.io/github/license/drobb2020/django-ecommerce.svg?style=for-the-badge
-[license-url]: https://github.com/drobb2020/django-ecommerce/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/drobb2020/django-app.svg?style=for-the-badge
+[contributors-url]: https://github.com/drobb2020/django-app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/drobb2020/django-app.svg?style=for-the-badge
+[forks-url]: https://github.com/drobb2020/django-app/network/members
+[stars-shield]: https://img.shields.io/github/stars/drobb2020/django-app.svg?style=for-the-badge
+[stars-url]: https://github.com/drobb2020/django-app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/drobb2020/django-app.svg?style=for-the-badge
+[issues-url]: https://github.com/drobb2020/django-app/issues
+[license-shield]: https://img.shields.io/github/license/drobb2020/django-app.svg?style=for-the-badge
+[license-url]: https://github.com/drobb2020/django-app/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/david-robb-42436a20/
-[product-screenshot]: ./ecom/static/assets/screenshot.png
+[product-screenshot]: ./static/images/screenshot.png
