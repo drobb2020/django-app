@@ -1,9 +1,92 @@
-{% extends 'layouts/blank.html' %}
+{% extends 'layouts/blank.html' %} 
 
-{% block content %} 
+{% load static %}
 
-    <div class="max-w-4xl mx-auto px-8 py-24">
-        <h1>Django App</h1>
+{% block content %}
+
+<div class="max-w-4xl mx-auto px-8 py-24">
+  <h1>Welcome!</h1>
+
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="grid gap-4">
+      <div>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src="{% static 'images/image2.jpg' %}"
+          alt=""
+        />
+      </div>
     </div>
+    <div class="grid gap-4">
+      <div>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src="{% static 'images/image3.jpg' %}"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src="{% static 'images/image4.jpg' %}"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src="{% static 'images/image5.jpg' %}"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="grid gap-4">
+      <div>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src="{% static 'images/image6.jpg' %}"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src="{% static 'images/image7.jpg' %}"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src="{% static 'images/image8.jpg' %}"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="grid gap-4">
+      <div>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src="{% static 'images/image9.jpg' %}"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src="{% static 'images/image10.jpg' %}"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src="{% static 'images/image11.jpg' %}"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
 
 {% endblock %}
