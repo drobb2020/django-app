@@ -36,7 +36,9 @@ if ENVIRONMENT == 'development':
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*', 'django-appg.onrender.com']
+
+CSRF_TRUSTED_ORIGINS = ['https://django-appg.onrender.com']
 
 INTERNAL_IPS = (
     '127.0.0.1',

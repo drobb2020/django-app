@@ -41,15 +41,17 @@ django-htmx==1.17.3
     # via -r requirements.in
 environs[django]==11.0.0
     # via -r requirements.in
+gunicorn==22.0.0
+    # via -r requirements.in
 idna==3.7
     # via requests
 marshmallow==3.21.2
     # via environs
 packaging==24.0
-    # via marshmallow
+    # via
+    #   gunicorn
+    #   marshmallow
 pillow==10.3.0
-    # via -r requirements.in
-psycopg2==2.9.9
     # via -r requirements.in
 psycopg2-binary==2.9.9
     # via -r requirements.in

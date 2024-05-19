@@ -7,5 +7,5 @@ django-htmx
 django-cloudinary-storage
 environs[django]
 whitenoise
-psycopg2
 psycopg2-binary
+gunicorn

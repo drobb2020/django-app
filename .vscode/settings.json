@@ -2,6 +2,7 @@
   "cSpell.words": [
     "allauth",
     "Andreas",
+    "appg",
     "cleancss",
     "Cloudinary",
     "collectstatic",
@@ -14,6 +15,7 @@
     "Htmx",
     "navitems",
     "noinput",
+    "onrender",
     "Procfile",
     "psycopg",
     "pycache",
