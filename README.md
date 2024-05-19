@@ -74,7 +74,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://django-appg.onrender.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
